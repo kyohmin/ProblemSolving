@@ -3,15 +3,11 @@
 int main(void){
 	int num;
 	scanf("%d", &num); 
-	for (int i=0; i < num; i++){
-		int p = 0;
-		for (int j=0; j <= num - i; j++){
+	for (int i = 1; i <= num; i++){
+		for (int j = 1; j <= (num - i); j++)
 			printf(" ");
-			p++;
-		}
-		for (int k=0; k <= num - p; k ++){
+		for (int k = 1; k <= i; k++)
 			printf("*");
-		}
 		printf("\n");
 	}
 	return 0;
