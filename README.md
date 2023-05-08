@@ -1,2 +1,2 @@
 # Baekjoon
-C study repository connected with git for record.
+C++ study repository connected with git for record.
