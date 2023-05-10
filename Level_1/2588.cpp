@@ -1,3 +1,6 @@
+// Recieve two numbers (both three digit)
+// and shows the process of calculation
+
 #include <iostream>
 
 void digitCalc(int num_1, int num_2, int digit);
