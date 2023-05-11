@@ -44,7 +44,6 @@ int main(){
     return 0;
 }
 
-
 // Function initialization
 void push(vector<int> &arr, int x){
     arr.push_back(x);
