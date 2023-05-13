@@ -1,12 +1,9 @@
 #include <iostream>
-#include <string>
+#include <stack>
 
 using namespace std;
 int main(){
-    string sen;
-    sen = "Hi";
+    stack<int> stack;
 
-    cout << sen.front() << endl;
-    sen.erase(sen.begin() + 0);
-    cout << sen;
+    cout << stack.top();
 }
