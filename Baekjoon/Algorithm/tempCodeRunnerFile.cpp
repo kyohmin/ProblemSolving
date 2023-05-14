@@ -1,5 +1,3 @@
-um){
-        //     stack.pop();
-        //     results.push_back('-');
-        //     current -= 1;
-        // }
+\0' && letter != ' '){
+        //     wordCount += 1;
+        }

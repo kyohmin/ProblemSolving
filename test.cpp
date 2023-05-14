@@ -4,6 +4,6 @@
 using namespace std;
 int main(){
     stack<int> stack;
-
-    cout << stack.top();
+    char a;
+    cout << a;
 }

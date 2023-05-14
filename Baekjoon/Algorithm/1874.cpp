@@ -43,10 +43,10 @@ int main(){
     {
         rep = results.size();
         for(int i = 0; i < rep; i++){
-            cout << results[i] << endl;
+            cout << results[i] << "\n";
         }
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << "\n";
     }
     
     
