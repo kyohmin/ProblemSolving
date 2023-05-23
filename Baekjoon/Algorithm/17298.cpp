@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 
-int original[100000000];
+int original[1000000];
 
 using namespace std;
 int main(){
