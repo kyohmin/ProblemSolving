@@ -1,9 +1,9 @@
 #include <iostream>
 #include <stack>
 
-int li[1000000];
-int cnt[1000000];
-int result[1000000];
+int li[1000001];
+int cnt[1000001];
+int result[1000001];
 
 using namespace std;
 int main(){
