@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 int main(){
@@ -8,5 +9,5 @@ int main(){
 	cin >> dayUp >> dayDown >> total;
 	day = ceil(((total - dayUp) / (dayUp - dayDown)));
 
-	cout << day;
+	cout << day +1;   // +1 as day starts with 0  
 }
