@@ -34,3 +34,5 @@ int main(){
 //  line 10 & 11
 //  - I initially calculated without a (double) conversion
 //  - int / int defining to a double variable becomes int
+//
+//  overall the code is dirty 
