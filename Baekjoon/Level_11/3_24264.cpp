@@ -3,9 +3,9 @@
 
 using namespace std;
 int main(){
-    int n;
+    long long n;
     cin >> n;
-    cout << n*n << '\n' << sqrt(n*n);
+    cout << n*n << '\n' << 2;
 
     return 0;
 }
