@@ -18,8 +18,6 @@ int main(){
 
         sort(side,side+3);
 
-        cout << side[0] << side[1] << side[2] << endl;
-
         if(side[0] == side[1] && side[0] == side[2]){
             cout << "Equilateral" << '\n';
         } else if(side[2] >= side[0] + side[1]){
