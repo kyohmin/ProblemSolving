@@ -7,19 +7,13 @@ using namespace std;
 
 bool compare(string a, string b){
     if(a.length() == b.length()){
-        for(int i = 0; i < a.length(); i++){
-            if(a[i] == b[i]){
-                continue;
-            }
-            return a[i] < b[i];
-        }
+        return a < b;
     }
     return a.length() < b.length();
 }
 
 int main(){
     vector<string> strVec;
-    vector<string> result;
 
     int rep;
     cin >> rep;
@@ -34,6 +28,6 @@ int main(){
     sort(strVec.begin(), strVec.end(), compare);
 
     for(string i : strVec){
-        cout << i << endl;
+        cout << i << '\n';
     }
 }
