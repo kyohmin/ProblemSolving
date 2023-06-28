@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 int main(){
@@ -33,10 +34,13 @@ int main(){
             }
         }
 
-        cout << fixed;
-        cout.precision(3);
+        
         
         answer = (double) pass / num *100;
+        answer = ceil(answer*1000) / 1000;
+
+        cout << fixed;
+        cout.precision(3);
 
         cout << answer << '%' << '\n';
     }
