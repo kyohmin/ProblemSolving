@@ -2,7 +2,7 @@
 
 using namespace std;
 int main(){
-    long long memo[21]{};
+    long long memo[91]{};
     int n;
     cin >> n;
     memo[1] = 1;
