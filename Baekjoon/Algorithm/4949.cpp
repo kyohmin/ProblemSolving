@@ -22,7 +22,7 @@ int main(){
                 braces.push(i);
             } else if(i == ')' && braces.top() == '('){
                 braces.pop();
-            } else if(i == ']' && braces.top() == '['){
+            } else if(i == ']' && braces.top() == '['){  
                 braces.pop();
             } else if(i == ')' && braces.top() != '('){
                 result = "no";
