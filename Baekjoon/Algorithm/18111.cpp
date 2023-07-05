@@ -12,7 +12,7 @@ int main(){
         }
     }
 
-    auto minMaxPair = minmax_element(arr,arr+m*n);
+    
 
     cout << minMaxPair.first() << endl;
 }
