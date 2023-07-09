@@ -1,29 +1,24 @@
 #include <iostream>
-#include <vector>
+#include <algorithm>
 
 using namespace std;
 int main(){
-    vector<pair<int,int>> vec;
-    vector<int> record;
+    pair<int,int> arr[50];
+    
     int rep;
     cin >> rep;
     for(int i = 0; i < rep; i++){
-        int weight, height;
-        cin >> weight >> height;
-        vec.push_back({weight,height});
+        cin >> arr[i].first >> arr[i].second;
     }
 
     for(int i = 0; i < rep; i++){
-        int cnt = 0;
+        int rank = 1;
         for(int j = 0; j < rep; j++){
-            if(i != j && vec[i].first > vec[j].first && vec[i].second > vec[j].second){
-                cnt++;
+            if(arr[i].first < arr[j].first && arr[i].second < arr[j].second){
+                rank++;
             }
         }
-        record.push_back(cnt);
-    }
 
-    for(int i : record){
-        cout << i << endl;
+        cout << rank << " ";
     }
 }
