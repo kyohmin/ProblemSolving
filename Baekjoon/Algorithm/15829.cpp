@@ -8,20 +8,21 @@ int main(){
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    // const int m = 1234567891;
-    const int r = 31;
+    int m = 1234567891;
+    long long r = 1;
 
     int len;
     string word;
-
     cin >> len >> word;
 
-    long long result;
+    long long sum = 0;
 
     for(int i = 0; i < len; i++){
-        long long num = word[i] - 96;
-        result += num * pow(r,i);
+        int tmp = (word[i] - 'a' + 1);
+        sum = (sum + tmp*r) % m;
+        r = (r*31) % m;
     }
 
-    cout << result;
+    cout << sum;
+
 }
