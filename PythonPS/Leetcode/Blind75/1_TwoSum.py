@@ -7,7 +7,7 @@ Summary: Finding two indices that adds up to the target value
 
 # Solution 1
 
-class Solution:
+class Solution1:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
             for j in range(i+1, len(nums)):
@@ -19,7 +19,7 @@ class Solution:
 
 # Solution 2
 
-class Solution:
+class Solution2:
     class Solution:
         def twoSum(self, nums: List[int], target: int) -> List[int]:
             dic = {}
@@ -32,3 +32,12 @@ class Solution:
             return _
 
     # Big(O): n
+
+class Solution3:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        dic = {}
+        for index, value in enumerate(nums):
+            newTarget = target - value
+            if newTarget in dic:
+                return [dic[newTarget], index]
+            dic[value] = index
