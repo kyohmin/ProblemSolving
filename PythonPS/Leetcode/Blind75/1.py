@@ -1,22 +1,23 @@
 """
-Problem Name: Best Time to Buy and Sell Stock
-Date: 2023-11-25
+Problem Name: Two Sum
+Date: 2023-11-24
 """
 
-# Solution 1 - One way pass O(n)
+# Solution 1
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        lowestDay, largestDiff = prices[0], 0
-        for i in prices:
-            if i < lowestDay:
-                lowestDay = i
-            largestDiff = max(largestDiff, i - lowestDay)
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        map = {}
 
-        return largestDiff
+        for i, e in enumerate(nums):
+            newTarget = target - e
+            if newTarget in map:
+                return [map[newTarget], i]
             
+            map[e] = i
+
+
 """
 Note:
-    The maximum profit can be found using the 'lowestDay' variable.
-    Keep track the differences and update it if new maximum difference is found.
-    The lowest day have the chance to get the new highest difference; therefore, both lowest day and largestDiff is recorded.
+    Use the map to keep track what numbers were found.
+    Using the map, the index and the 'target - current value' can be found if it exist.
 """
