@@ -1,5 +1,5 @@
 """
-Problem Name: Stack 2
+Problem Name: 스택 2
 Date        : Nov-25,2023
 Link        : https://www.acmicpc.net/problem/28278
 Difficulty  : Silver 4
