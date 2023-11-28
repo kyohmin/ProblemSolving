@@ -1,6 +1,7 @@
 """
 Problem Name: Two Sum
-Date: 2023-11-24
+Date        : 2023-11-24
+Difficulty  : Easy
 """
 
 # Solution 1

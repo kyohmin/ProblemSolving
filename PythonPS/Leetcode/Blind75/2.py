@@ -1,6 +1,7 @@
 """
 Problem Name: Best Time to Buy and Sell Stock
-Date: 2023-11-25
+Date        : 2023-11-25
+Difficulty  : Easy
 """
 
 # Solution 1 - One way pass O(n)

@@ -1,6 +1,7 @@
 """
-Name: Product of Array Except Self
-Date: 2023-11-28
+Name        : Product of Array Except Self
+Date        : 2023-11-28
+Difficulty  : Medium
 """
 
 # My Solution

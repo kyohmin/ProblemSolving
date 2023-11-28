@@ -1,6 +1,7 @@
 """
-Name: Contains Duplicate
-Date: 2023-11-26
+Name        : Contains Duplicate
+Date        : 2023-11-26
+Difficulty  : Easy
 """
 
 # Solution 1 - Using Set
