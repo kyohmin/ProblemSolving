@@ -1,6 +1,6 @@
 /*
 Problem Name: 905. Sort Array By Parity
-Date        : Jan-04,2023
+Date        : Jan-04,2024
 Link        : https://leetcode.com/problems/sort-array-by-parity/description/
 Difficulty  : Easy
 */

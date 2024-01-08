@@ -1,6 +1,6 @@
 /*
 Problem Name: 27. Remove Element
-Date        : Jan-04,2023
+Date        : Jan-04,2024
 Link        : https://leetcode.com/problems/remove-element/description/
 Difficulty  : Easy
 */

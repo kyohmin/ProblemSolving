@@ -1,6 +1,6 @@
 /*
 Problem Name: 26. Remove Duplicates from Sorted Array
-Date        : Jan-03,2023
+Date        : Jan-03,2024
 Link        : https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 Difficulty  : Easy
 */
