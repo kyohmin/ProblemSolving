@@ -1,3 +1,10 @@
+/*
+Problem Name: 2805. 나무자르기
+Date        : Jan-01,2024
+Link        : https://www.acmicpc.net/problem/2805
+Difficulty  : Silver 2
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -47,3 +54,9 @@ int main(){
 cout << result;
     return 0;
 }
+
+/*
+[Self Reflection]
+    How the solution works: Repeat binary search and cut trees.
+                            Then check if the trees have less or more than expectation.
+*/
